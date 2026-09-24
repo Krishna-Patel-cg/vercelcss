@@ -1,0 +1,194 @@
+/* *{
+    margin: 0px;
+} */
+[class]{
+    /* border: solid; */
+}
+.home{
+    width: 100%;
+    height: 800px;
+    background-color: #01CCAC;
+    display: flex;
+}
+.main{
+    width: 90%;
+    height: 650px;
+    background-color: white;
+    /* border: solid; */
+    margin: auto;
+    margin-top: 40px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    /* gap: 30%; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* justify-content: space-between; */
+    height: 60px;
+    background-color: azure;
+    /* border: solid; */
+    margin: auto;
+    
+}
+.card{
+    /* border: solid; */
+    display: flex;
+    align-items: center;
+    word-spacing: 10px;
+}
+.about{
+    align-items: center;
+    display: flex;
+    /* border: solid; */
+    word-spacing: 10px;
+}
+.travel{
+    font-weight: bolder;
+    font-size: 25px;
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+    /* border: solid; */
+}
+.main2{
+    display: flex;
+    /* border: solid red; */
+    gap: 15px;
+    margin-top: 30px;
+}
+.must{
+    height: 460px;
+    /* border: solid green; */
+    width: 30%;
+    font-weight: bolder; *
+    font-size : 50px;
+}
+.cap{
+    background-image: url(capadocia.jpg);
+    width: 20%;
+    background-size: cover;
+    margin-top: 20px;
+    /* border: solid; */
+}
+.cap:hover{
+    border:2px solid #01CCAC;
+    box-shadow: 0px 0px 40px  #01CCAC;
+}
+.san:hover{
+    
+    border:2px solid #01CCAC;
+    box-shadow: 0px 0px 40px  #01CCAC;
+}
+.bali:hover{
+    border:2px solid #01CCAC;
+    box-shadow: 0px 0px 40px  #01CCAC;
+}
+.san{
+    width: 20%;
+    background-image: url(santorini2.jpg);
+    background-size: cover;
+    /* border: solid; */
+    height: 440px;
+    position: relative;
+    background-image: rgba(122,122,122,1.0);
+}
+.bali{
+    margin-top: 20px;
+    width: 20%;
+    /* border: solid; */
+    background-image: url(bali.jpg);
+    background-size: cover;
+}
+.must p{
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.must h4{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.explore{
+    text-decoration: none;
+    /* border: solid; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 30px;
+    padding-left: 40px;
+    position: relative;
+    bottom: 30px;
+    margin-bottom: 70px;
+    border-radius: 40px;
+    padding-right: 40px;
+    background-color: red;
+    color: white;
+}
+.location{
+    position: relative;
+    bottom: 25px;
+    /* color: white; */
+}
+.lc{
+    /* border: solid; */
+    height: 85px;
+    margin-top: 340px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+h3{
+    position: relative;
+    bottom: 90px;
+    margin-left: 27px;
+}
+.lc p{
+    position: relative;
+    top: 25px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.fotter{
+    /* border: solid yellow; */
+    height: 80px;
+    display: flex;
+}
+.facebook{
+    /* border: solid; */
+    height: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+    /* margin: auto; */
+}
+.ff{
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+.yy{
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+}
+.inin{
+    position: relative;
+    margin-left: 40px;
+}
+.unique{
+    /* border: solid; */
+    height: 70px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 30px;
+    vertical-align:middle;
+}
+.arrow{
+    /* border: solid; */
+    height: 70px;
+    width: 150px;
+}
